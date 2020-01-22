@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<div class="card-deck">
+    {% for prod in object_list %}
+    <div class="col-md-4">
+    <div class="card">
+      <img class="card-img-top" src="{{prod.product_bg}}" alt="Card image cap">
+      <img class="card-img-front" src="{{prod.product_skin}}" width="80%" height="auto" alt="Card image cap">
+      <div class="card-body text-center">
+        <h5 class="card-title">{{prod.product_title}}</h5>
+        <p class="card-text">{{prod.product_desc}}</p>
+        <h5 class="card-price">{{prod.product_price}}</h5>
+    </div>
+      <a href="{{prod.product_link}}" target="_blank" style="text-decoration: none;">
+      <div class="card-footer text-center">
+        <small class="text-center">BUY NOW</small>
+      </div></a>
+    </div>
+</div>
+    {% endfor %}
+  </div>
+
+{% endblock content %}

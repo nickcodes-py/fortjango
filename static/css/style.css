@@ -1,0 +1,147 @@
+.nav-item{
+	padding-top: 4%;
+}
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+
+.banner{
+		background-position: center;
+		-webkit-background-size: cover;
+		background-size: cover;
+		position: relative;
+		height: 500px;
+		background-image: linear-gradient(180deg, #54a2eb 0%, #89d7df 100%);
+}
+.banner2{
+	height: 100px;
+	background-image: linear-gradient(180deg, #212224 0%, #161616 100%);
+}
+.imgclass{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.col-sm-4{
+	text-align: center;
+	color: whitesmoke;
+
+}
+.footer-copyright{
+	
+	color: whitesmoke;
+}
+.col-md-4{
+	margin-top: 40px;
+}
+
+.col-sm-4 h1{
+	color: whitesmoke;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: 'Poppins', sans-serif;
+	padding-top: 100px;
+}
+.blockquote{
+	padding-top: 20px;
+}
+
+.card-deck{
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.container{
+}
+
+.card-footer{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(255, 255, 255);
+	background-color: rgb(34, 34, 34);
+}
+.card-footer:hover{
+	color: white;
+	background-color: rgb(46, 46, 46);
+}
+.card-img-front
+    {
+		bottom: 36px;
+		margin:auto;
+		text-align: center;
+      position: relative;
+    }
+.card-img-top
+    {
+      position: absolute;
+	}
+.card-title {
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	margin-top: -50px;
+}
+.card-text {
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+}
+.card-price{
+	font-size: 30px;
+	margin-top: -8px;
+	margin-bottom: -10px;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+}
+.content-mobile {display: none;}
+@media (max-width: 991.98px){
+	.banner{
+		display: none;
+	}
+	.content-mobile {margin: auto;display: block;}
+}
