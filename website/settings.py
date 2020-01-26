@@ -25,7 +25,7 @@ SECRET_KEY = 'yfb@b*g^uet2o*@xjvyx#ns8yc$ouyqvo3uy*#xm-v64ky^#9d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['157.245.52.68']
+ALLOWED_HOSTS = ['157.245.52.68', 'essayeshop.com']
 
 
 # Application definition
